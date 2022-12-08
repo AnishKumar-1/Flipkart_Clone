@@ -1,0 +1,48 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c2841;
+    padding-top: 5px;
+}
+.footer-container li{
+    color:white;
+    font-size: 13px;
+    list-style-type:none;
+    padding:5px;
+    cursor: pointer;
+
+    
+}
+.footer-container li:hover{
+    border-bottom: 1px solid white;
+}
+.footer-container h1{
+    color:gray;
+    font-size: 20px;
+}
+.footer-container p{
+    color:white;
+}
+.footer-last{
+    height: 90px;
+    border-top: 1px solid #455880;
+    background-color: #1c2841;
+}
+.footer-last li{
+  list-style: none;
+    color:white;
+    padding-top: 40px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.footer-last ul{
+    border-top:0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.selling{
+    color:yellow;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
